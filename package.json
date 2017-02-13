@@ -1,0 +1,48 @@
+{
+  "name": "harris",
+  "version": "0.0.0",
+  "description": "A Predictable State Container",
+  "homepage": "https://github.com/tweedjs/harris",
+  "license": "WTFPL",
+  "keywords": [
+    "state",
+    "observable",
+    "reactive",
+    "oop"
+  ],
+  "bugs": {
+    "url": "https://github.com/tweedjs/harris/issues"
+  },
+  "repository": "tweedjs/harris",
+  "author": "Emil Persson <emil.n.persson@gmail.com> (https://emilpersson.se)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "tslib": "^1.5.0"
+  },
+  "peerDependencies": {
+    "promise-polyfill": "^6.0.2",
+    "tweed": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/es6-promise": "^0.0.32",
+    "@types/jest": "^16.0.4",
+    "jest": "^18.1.0",
+    "standardts": "^1.0.0",
+    "ts-jest": "^18.0.3",
+    "tweed": "^0.4.0",
+    "tweed-typescript-config": "^0.3.0",
+    "typescript": "^2.1.6"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*\\.test\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}

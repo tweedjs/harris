@@ -1,0 +1,13 @@
+{
+  "extends": "./node_modules/tweed-typescript-config/config",
+  "compilerOptions": {
+    "target": "es5",
+    "rootDir": "src",
+    "outDir": "dist",
+    "importHelpers": true,
+    "declaration": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
