@@ -3,6 +3,11 @@
 A predictable State Container inspired by Redux; in an OOP style.
 
 ## Installation
+```shell
+npm install --save harris
+```
+
+## Usage
 ```typescript
 import {Store, Update} from 'harris'
 
