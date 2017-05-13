@@ -30,9 +30,9 @@
     "jest": "^18.1.0",
     "standardts": "^1.0.0",
     "ts-jest": "^18.0.3",
-    "tweed": "^0.5.0",
+    "tweed": "^0.5.1",
     "tweed-typescript-config": "^0.5.0",
-    "typescript": "^2.1.6"
+    "typescript": "^2.3.2"
   },
   "jest": {
     "transform": {
