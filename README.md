@@ -92,7 +92,7 @@ update the UI when a command is dispatched:
 
 ```typescript
 import {Store, Update} from 'harris'
-import {Node} from 'tweed'
+import {VirtualNode} from 'tweed'
 import render from 'tweed/render/dom'
 
 class AddAction {

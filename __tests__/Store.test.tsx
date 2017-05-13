@@ -1,5 +1,5 @@
 import {Store, Update} from '../src'
-import {Node} from 'tweed'
+import {VirtualNode} from 'tweed'
 import render from 'tweed/render/string'
 
 describe('Store', () => {
